@@ -1,0 +1,27 @@
+/*BODY*/
+
+body {
+    background: #fff;
+}
+
+/*HEADING*/
+
+.jumbotron {
+    margin: 20px 0;
+    padding: 20px 10px;
+    border: 1px solid #000;
+    background-color: #ADD8E6;
+    text-align: center;
+}
+
+#Schedule-Table{
+    background-color: #ADD8E6;
+}
+
+/*FONT*/
+
+h1 {
+    color: #fff;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px #000;
+}
