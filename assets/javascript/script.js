@@ -78,7 +78,7 @@ database.ref().on("child_added", function (childAdded) {
     //Next Train
     var nextTrain = moment().add(tMinutesTillTrain, "minutes");
     console.log("ARRIVAL TIME: " + moment(nextTrain).format("hh:mm A"));
-    var nextime = moment(nextTrain).format("hh:mm A");
+    var nexttime = moment(nextTrain).format("hh:mm A");
 
     var oneRow = "<tr>";
     oneRow += "<td>" + name + "</td>";
